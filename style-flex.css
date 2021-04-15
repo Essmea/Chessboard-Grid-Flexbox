@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 800px;
+    height:800px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.schack-rutor{
+    border: 2px solid white;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    height:750px;
+    margin: 0 auto; 
+  }
+  
+  .row{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+  
+  
+  .light{
+    background-color: rgb(231, 129, 168);
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 10px; 
+    flex: 1;
+  }
+  
+  .dark {
+    background-color: rgb(202, 39, 88);
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 10px; 
+    flex: 1;
+  }
+
+.black {
+    color: rgb(189, 99, 116);
+}
+
+.white {
+    color: white;
+}

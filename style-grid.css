@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.wrap {
+    margin: 0 auto;
+    width: 800px;
+    height:800px;
+    background-color: pink;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.schack-rutor{
+    border: 2px solid white;
+    width: 750px;
+    height: 750px;
+    background-color: rgb(231, 129, 168);
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ;
+}
+.black {
+    color: rgb(189, 99, 116);
+}
+
+.white {
+    color: white;
+}
+
+.dark-one-one {
+    background-color:rgb(202, 39, 88);
+    grid-column: 2/2  ;
+}
+
+.dark-two-one {
+    background-color:rgb(202, 39, 88);
+    grid-column: 4/4  ;
+}
+.dark-three-one {
+    background-color:rgb(202, 39, 88);
+    grid-column: 6/6  ;
+}
+.dark-four-one {
+    background-color:rgb(202, 39, 88);
+    grid-column: 8/8  ;
+}
+
+.dark-one-two {
+    background-color:rgb(202, 39, 88);
+    grid-column: 1/1  ;
+}
+
+.dark-two-two {
+    background-color:rgb(202, 39, 88);
+    grid-column: 3/3  ;
+}
+.dark-three-two {
+    background-color:rgb(202, 39, 88);
+    grid-column: 5/5  ;
+}
+.dark-four-two {
+    background-color:rgb(202, 39, 88);
+    grid-column: 7/7;
+}
+
+.fas  {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 20%; 
+    
+}
+
+.dark-one-one, .dark-two-one, .dark-three-one, .dark-four-one, .dark-one-two, .dark-two-two, .dark-three-two, .dark-four-two {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
